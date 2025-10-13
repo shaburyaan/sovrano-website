@@ -1,46 +1,46 @@
 # Sovrano Distributions Website
 
-Официальный сайт компании Sovrano Distributions - дистрибьютора премиальных алкогольных напитков и продуктов питания в Армении.
+Official website of Sovrano Distributions - premium alcohol and gastronomy distributor in Armenia.
 
-## Особенности
+## Features
 
-- 🌐 **Многоязычность**: Поддержка английского, русского и армянского языков
-- 🍷 **Алкогольные бренды**: Nemiroff, Gancia, Broom Gin, Muja Irish Whiskey, Valhalla и другие
-- 🍫 **Гастрономические бренды**: Caputo, Delverde, Garofalo, Sacla, Sterilgarda, Virgilio
-- 📱 **Адаптивный дизайн**: Оптимизирован для всех устройств
-- ⚡ **Быстрая загрузка**: Оптимизированные изображения и ресурсы
+- 🌐 **Multi-language**: Support for English, Russian, and Armenian languages
+- 🍷 **Alcohol Brands**: Nemiroff, Gancia, Broom Gin, Muja Irish Whiskey, Valhalla and others
+- 🍫 **Gastronomy Brands**: Caputo, Delverde, Garofalo, Sacla, Sterilgarda, Virgilio
+- 📱 **Responsive Design**: Optimized for all devices
+- ⚡ **Fast Loading**: Optimized images and resources
 
-## Структура проекта
+## Project Structure
 
 ```
 sovrano.am/
-├── index.html              # Главная страница (английский)
-├── ru/                     # Русская версия
-├── hy/                     # Армянская версия
-├── our-partners/           # Страница партнеров
-├── about-us/               # О компании
-├── contact-us/             # Контакты
-├── wp-content/             # WordPress контент
-├── logo-g/                 # Логотипы брендов гастрономии
-└── [brand-pages]/          # Страницы брендов
+├── index.html              # Main page (English)
+├── ru/                     # Russian version
+├── hy/                     # Armenian version
+├── our-partners/           # Partners page
+├── about-us/               # About us
+├── contact-us/             # Contact us
+├── wp-content/             # WordPress content
+├── logo-g/                 # Gastronomy brand logos
+└── [brand-pages]/          # Brand pages
 ```
 
-## Технические детали
+## Technical Details
 
-- **CMS**: WordPress с Elementor
-- **Тема**: Astra
-- **Плагины**: Elementor Pro, Royal Elementor Addons, WPML
-- **Языки**: English, Русский, Հայերեն
+- **CMS**: WordPress with Elementor
+- **Theme**: Astra
+- **Plugins**: Elementor Pro, Royal Elementor Addons, WPML
+- **Languages**: English, Русский, Հայերեն
 
-## Статус брендов гастрономии
+## Gastronomy Brands Status
 
-Все ссылки на бренды гастрономии отключены (`javascript:void(0)`) - при клике на "Read More" или фотку ничего не происходит.
+All gastronomy brand links are disabled (`javascript:void(0)`) - clicking on "Read More" or brand images does nothing.
 
-## Деплой
+## Deployment
 
-Сайт готов к деплою на любой веб-хостинг с поддержкой PHP и MySQL.
+The website is ready for deployment on any web hosting with PHP and MySQL support.
 
-## Контакты
+## Contacts
 
 - **Email**: info@sovrano.am
-- **Сайт**: https://sovrano.am
+- **Website**: https://sovrano.am
