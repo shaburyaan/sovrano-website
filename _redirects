@@ -1,0 +1,12 @@
+# Cloudflare Pages Redirects Configuration
+# https://developers.cloudflare.com/pages/platform/redirects/
+
+# Redirect www to non-www (if needed)
+# https://www.sovrano.am/* https://sovrano.am/:splat 301
+
+# Redirect HTTP to HTTPS (handled by Cloudflare automatically)
+
+# Language redirects (if needed)
+# /en/* / 301
+# /russian/* /ru/ 301
+# /armenian/* /hy/ 301

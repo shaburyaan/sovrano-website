@@ -1,0 +1,46 @@
+# Cloudflare Pages Custom Headers Configuration
+# https://developers.cloudflare.com/pages/platform/headers/
+
+# Security Headers for all pages
+/*
+  X-Frame-Options: SAMEORIGIN
+  X-Content-Type-Options: nosniff
+  X-XSS-Protection: 1; mode=block
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()
+
+# Cache static assets for 1 year
+/wp-content/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/logo/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/logo-g/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/homepage/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Cache CSS and JS for 1 week
+/*.css
+  Cache-Control: public, max-age=604800
+
+/*.js
+  Cache-Control: public, max-age=604800
+
+# Cache images for 1 month
+/*.jpg
+  Cache-Control: public, max-age=2592000
+
+/*.jpeg
+  Cache-Control: public, max-age=2592000
+
+/*.png
+  Cache-Control: public, max-age=2592000
+
+/*.webp
+  Cache-Control: public, max-age=2592000
+
+/*.gif
+  Cache-Control: public, max-age=2592000
